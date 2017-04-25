@@ -1,4 +1,7 @@
-# api documentation for  [react-tabs (v0.8.2)](https://github.com/reactjs/react-tabs)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-tabs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-tabs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-tabs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-tabs)
+# npmdoc-react-tabs
+
+#### basic api documentation for  [react-tabs (v0.8.3)](https://github.com/reactjs/react-tabs)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-tabs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-tabs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-tabs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-tabs)
+
 #### React tabs component
 
 [![NPM](https://nodei.co/npm/react-tabs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-tabs)
@@ -26,7 +29,9 @@
     },
     "dependencies": {
         "classnames": "^2.2.0",
-        "js-stylesheet": "^0.0.1"
+        "create-react-class": "^15.5.2",
+        "js-stylesheet": "^0.0.1",
+        "prop-types": "^15.5.8"
     },
     "description": "React tabs component",
     "devDependencies": {
@@ -50,20 +55,21 @@
         "react-addons-test-utils": "^15.0.0",
         "react-dom": "^15.0.0",
         "react-modal": "^1.3.0",
+        "react-test-renderer": "^15.5.4",
         "rimraf": "^2.5.2",
         "webpack": "^1.13.1",
         "webpack-dev-server": "^1.14.1"
     },
     "directories": {},
     "dist": {
-        "shasum": "7928e822361b61eb7f53164daf86ad7ee98ef539",
-        "tarball": "https://registry.npmjs.org/react-tabs/-/react-tabs-0.8.2.tgz"
+        "shasum": "40bdc14c725c4dbf4befdfddf1153a93af92a894",
+        "tarball": "https://registry.npmjs.org/react-tabs/-/react-tabs-0.8.3.tgz"
     },
     "files": [
         "dist",
         "lib"
     ],
-    "gitHead": "c7df5b1f30cb94934677ea1708ca4f6be9cc7088",
+    "gitHead": "8d6744b369fa81e5f47bd84e82b079e837288fd4",
     "homepage": "https://github.com/reactjs/react-tabs",
     "jest": {
         "testPathDirs": [
@@ -109,7 +115,8 @@
         "start": "webpack-dev-server --inline --content-base examples/",
         "test": "jest"
     },
-    "version": "0.8.2"
+    "version": "0.8.3",
+    "bin": {}
 }
 ```
 
